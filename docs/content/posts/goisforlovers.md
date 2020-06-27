@@ -259,7 +259,7 @@ you want to inside of your templates.
 ## Using Content (page) Parameters
 
 In each piece of content you can provide variables to be used by the
-templates. This happens in the [front matter](/content/front-matter).
+templates. This happens in the [front matter](/docs/content/front-matter).
 
 An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
