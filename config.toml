@@ -1,4 +1,4 @@
-baseURL = "https://jingyi3.github.io/mybook/"
+baseURL = "https://jingyi3.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 publishDir = "docs"
