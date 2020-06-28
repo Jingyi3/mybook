@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Olivia&#39;s Notebook</title>
-    <link>https://jingyi3.github.io/mybook/docs/docs/ai/machine-learning/tree/ensembling/</link>
+    <link>https://jingyi3.github.io/mybook/docs/ai/machine-learning/tree/ensembling/</link>
     <description>Recent content on Olivia&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jingyi3.github.io/mybook/docs/docs/ai/machine-learning/tree/ensembling/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jingyi3.github.io/mybook/docs/ai/machine-learning/tree/ensembling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://jingyi3.github.io/mybook/docs/docs/ai/machine-learning/tree/ensembling/xgbosst/</link>
+      <link>https://jingyi3.github.io/mybook/docs/ai/machine-learning/tree/ensembling/xgbosst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jingyi3.github.io/mybook/docs/docs/ai/machine-learning/tree/ensembling/xgbosst/</guid>
+      <guid>https://jingyi3.github.io/mybook/docs/ai/machine-learning/tree/ensembling/xgbosst/</guid>
       <description>XGBoost #  </description>
     </item>
     
