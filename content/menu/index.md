@@ -1,0 +1,59 @@
+---
+headless: true
+---
+
+- [**AI**]({{< relref "/docs/AI" >}})
+- [**Machine Learning**]({{< relref "/docs/AI/Machine-Learning" >}})
+- [Linear Regression]({{< relref "/docs/AI/Machine-Learning/Linear Regression" >}})
+- [Logistic Regression]({{< relref "/docs/AI/Machine-Learning/Logistic Regression" >}})
+- [SVM]({{< relref "/docs/AI/Machine-Learning/SVM" >}})
+- [Tree]({{< relref "/docs/AI/Machine-Learning/Tree" >}})
+  - [Decision Tree]({{< relref "/docs/AI/Machine-Learning/Tree/Decision Tree" >}})
+  - [Random Forest]({{< relref "/docs/AI/Machine-Learning/Tree/Random Forest" >}})
+  - [Ensembling]({{< relref "/docs/AI/Machine-Learning/Tree/Ensembling" >}})
+    - [AdaBoost]
+    - [XGBoost]
+- [Neural Network]({{< relref "/docs/AI/Machine-Learning/Neural Network]" >}})
+- [Analysis]
+  - [PCA]
+  - [Independent Componoents Analysis]
+  - [Factor Analysis]
+- [Clustering]
+  - [K-means]
+  - [EM]
+- [**Deap Learning**]({{< relref "/docs/AI/deep-learning" >}})
+- [Deep Neural Network]
+- [Convolurional Neural Network]
+- [**Reinforcement Learning**]({{< relref "/docs/AI/reinforcement-learning" >}})
+- [**State-bases Models**]
+- [Search Problem]
+- [Markov Decision Process]
+  - [Policy/Value Iteration]
+  - [Monte Carlo methods]
+  - [Model-based MC]
+  - [Model-free MC]
+- [Adversarial Games]
+- [**Variable-based Models**]
+- [Constraint Satisfaction Problem]
+- [Bayesian Networks]
+- [Policy Gradient]
+- [**NLP**]({{< relref "/docs/AI/neural-language-processing" >}})
+- [RNN]
+  - [simple RNN]
+  - [LSTM]
+- [Word Embeddings]
+- [Neural language methods]
+- [Neural Machine Translation]
+  - [Attention]
+  - [Bert]
+<br />
+
+- **Shortcodes**
+- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
+- [Columns]({{< relref "/docs/shortcodes/columns" >}})
+- [Expand]({{< relref "/docs/shortcodes/expand" >}})
+- [Hints]({{< relref "/docs/shortcodes/hints" >}})
+- [Katex]({{< relref "/docs/shortcodes/katex" >}})
+- [Mermaid]({{< relref "/docs/shortcodes/mermaid" >}})
+- [Tabs]({{< relref "/docs/shortcodes/tabs" >}})
+<br />
