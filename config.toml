@@ -1,5 +1,10 @@
-baseURL = "https://jingyi3.github.io/mybook/"
+baseURL = "https://jingyi3.github.io/"
+theme = "hugo-theme-book"
 languageCode = "en-us"
 title = "Olivia's Notebook"
 publishDir = "docs"
-canonifyurls = "true"
+defaultContentLanguage = "en"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+publishDir = "docs"
+
