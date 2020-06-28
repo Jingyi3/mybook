@@ -1,11 +1,10 @@
-baseURL = "https://jingyi3.github.io/"
-theme = "hugo-theme-book"
+baseURL = "https://jingyi3.github.io/mybook"
+theme = "hugo-book"
 languageCode = "en-us"
 title = "Olivia's Notebook"
 publishDir = "docs"
 
 defaultContentLanguage = "en"
-metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+
 
 
