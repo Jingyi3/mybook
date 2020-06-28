@@ -2,7 +2,7 @@
 
 
 baseURL: https://jingyi3.github.io/mybook
-theme: hugo-theme-book
+theme: hugo-book
 languageCode: en-us
 title: Olivia's Notebook
 publishDir: docs
