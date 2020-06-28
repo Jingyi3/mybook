@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Olivia&#39;s Notebook</title>
-    <link>https://jingyi3.github.io/mybook/docs/ai/machine-learning/logistic-regression/</link>
+    <link>https://jingyi3.github.io/mybook/docs/docs/ai/machine-learning/logistic-regression/</link>
     <description>Recent content on Olivia&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jingyi3.github.io/mybook/docs/ai/machine-learning/logistic-regression/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jingyi3.github.io/mybook/docs/docs/ai/machine-learning/logistic-regression/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
