@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="DFS BFS #  A Tree is typically traversed in two ways:
+BFS Breadth First Traversal (Or Level Order Traversal) DFS Depth First Traversals
+ Inorder Traversal (Left-Root-Right) Preorder Traversal (Root-Left-Right) Postorder Traversal (Left-Right-Root)  Time &amp; Space #  Is there any difference in terms of Time Complexity?
+All four traversals require O(n) time as they visit every node exactly once.
+Is there any difference in terms of Extra Space?">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jingyi3.github.io/mybook/docs/algorithm/dfs-bfs/" />
+
+<title>D F S B F S | Olivia&#39;s Notebook</title>
+<link rel="manifest" href="/mybook/manifest.json">
+<link rel="icon" href="/mybook/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/mybook/book.min.87d8473d20e9ff468e031bcecd0c89fe511f17f4013094818a78c448aa4bb2f6.css" integrity="sha256-h9hHPSDp/0aOAxvOzQyJ/lEfF/QBMJSBinjESKpLsvY=">
+<script defer src="/mybook/en.search.min.abd1923066243da52164265709f3ee951298657358d3e6c3d04154a038c123ab.js" integrity="sha256-q9GSMGYkPaUhZCZXCfPulRKYZXNY0&#43;bD0EFUoDjBI6s="></script>
+<link rel="alternate" type="application/rss+xml" href="https://jingyi3.github.io/mybook/docs/algorithm/dfs-bfs/index.xml" title="Olivia's Notebook" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/mybook"><span>Olivia&#39;s Notebook</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/ai/" class="collapsed ">A I</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Algorithm</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/algorithm/dfs-bfs/" class="active">D F S B F S</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Java</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Leetcode</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Shortcodes</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/katex/" class="">Katex</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/section/" class="collapsed ">Section</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/mybook/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/mybook/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/mybook/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>D F S B F S</strong>
+
+  <label for="toc-control">
+    
+    <img src="/mybook/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#time--space">Time &amp; Space</a></li>
+    <li><a href="#how-to-pick-one">How to Pick One?</a></li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="dfs-bfs">
+  DFS BFS
+  <a class="anchor" href="#dfs-bfs">#</a>
+</h1>
+<p>A Tree is typically traversed in two ways:</p>
+<p><strong>BFS</strong> Breadth First Traversal (Or Level Order Traversal)
+<strong>DFS</strong> Depth First Traversals</p>
+<ul>
+<li>Inorder Traversal (Left-Root-Right)</li>
+<li>Preorder Traversal (Root-Left-Right)</li>
+<li>Postorder Traversal (Left-Right-Root)</li>
+</ul>
+<h2 id="time--space">
+  Time &amp; Space
+  <a class="anchor" href="#time--space">#</a>
+</h2>
+<p>Is there any difference in terms of <strong>Time Complexity</strong>?<br>
+All four traversals require O(n) time as they visit every node exactly once.</p>
+<p>Is there any difference in terms of <strong>Extra Space</strong>?<br>
+There is difference in terms of extra space required.</p>
+<ol>
+<li>Extra Space required for Level Order Traversal is O(w) where w is maximum width of Binary Tree. In level order traversal, queue one by one stores nodes of different level.</li>
+<li>Extra Space required for Depth First Traversals is O(h) where h is maximum height of Binary Tree. In Depth First Traversals, stack (or function call stack) stores all ancestors of a node.</li>
+</ol>
+<p><strong>It is evident from above points that extra space required for Level order traversal is likely to be more when tree is more balanced and extra space for Depth First Traversal is likely to be more when tree is less balanced.</strong></p>
+<h2 id="how-to-pick-one">
+  How to Pick One?
+  <a class="anchor" href="#how-to-pick-one">#</a>
+</h2>
+<ol>
+<li>Extra Space can be one factor (Explained above)</li>
+<li>Depth First Traversals are typically recursive and recursive code requires function call overheads.</li>
+<li>The most important points is, BFS starts visiting nodes from root while DFS starts visiting nodes from leaves. So if our problem is to search something that is more likely to closer to root, we would prefer BFS. And if the target node is close to a leaf, we would prefer DFS.</li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#time--space">Time &amp; Space</a></li>
+    <li><a href="#how-to-pick-one">How to Pick One?</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

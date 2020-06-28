@@ -1,0 +1,15 @@
+{
+  "name": "Olivia's Notebook",
+  "short_name": "Olivia's Notebook",
+  "start_url": "/mybook/",
+  "scope": "/mybook/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/mybook/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
