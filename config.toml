@@ -3,8 +3,9 @@ theme = "hugo-theme-book"
 languageCode = "en-us"
 title = "Olivia's Notebook"
 publishDir = "docs"
+
 defaultContentLanguage = "en"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
-publishDir = "docs"
+
 
