@@ -25,14 +25,18 @@ Union O(n) *
 Find O(n) *   
 Get component size O(n) *   
 Check if connected O(n) *   
-Count component O(1)
+Count component O(1)    
 
-`*` $\alpha$(n) means Amortized constant time
+`*` {{< katex >}}\alpha(n) {{< /katex >}}means Amortized constant time
+
 
 [Amortized slide](http://research.engineering.nyu.edu/~greg/algorithms/classnotes/applications-amortization.pdf)
 
 
 ## Code
+
+{{< expand  >}}
+
     // Creates a graph with V vertices and E edges 
     Graph(int v,int e) { 
         V = v; 
@@ -82,7 +86,9 @@ Count component O(1)
         } 
         return 0; 
     } 
-    
+
+{{< /expand >}}
+
 ## Leetcode
 [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
 

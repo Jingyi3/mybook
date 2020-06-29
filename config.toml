@@ -6,5 +6,8 @@ publishDir = "docs"
 
 defaultContentLanguage = "en"
 
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
