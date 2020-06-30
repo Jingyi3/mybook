@@ -34,3 +34,8 @@ Algorithms in ML, DL, RL
 - Effective Java
 
 
+> Deploy this site  
+> Output the compiled files: hugo --theme book -D  
+> Start the server locally: hugo server --minify --theme book
+
+
